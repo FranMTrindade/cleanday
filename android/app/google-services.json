@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380383565335",
+    "project_id": "apptcc-c09ff",
+    "storage_bucket": "apptcc-c09ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380383565335:android:e30394a43a0ef0a9402e52",
+        "android_client_info": {
+          "package_name": "com.apptcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380383565335-dv7ks6m5squni72k6tge7q4lfuiroa5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg9XImHTKh_5pSwIFsds1TN_5_GSam1Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380383565335-dv7ks6m5squni72k6tge7q4lfuiroa5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
