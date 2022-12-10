@@ -2,6 +2,7 @@
 import React,{useLayoutEffect, useState} from 'react';
 import {View, Text} from 'react-native';
 import {useRoute, useNavigation} from '@react-navigation/native'
+import {Input} from './styles'
 
 function ChatIndividual(){ 
  
@@ -18,7 +19,7 @@ function ChatIndividual(){
   
   return(
       <View>
-      <Text> {rotasChat.params?.title} </Text>
+        <Input/>
       </View>
  )
 }

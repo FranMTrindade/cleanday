@@ -5,7 +5,7 @@ function  PagChat(){
   return(
       <View>
         <Header/>
-        <Text> Chat </Text>
+        <Text> Chat aqui </Text>
       </View>
  )
 }
