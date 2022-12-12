@@ -4,6 +4,7 @@ import {View, Text} from 'react-native';
 import Feather from 'react-native-vector-icons/Feather'
 import firestore from '@react-native-firebase/firestore'
 import Pesquisa from '../../components/Pesquisa';
+import Header from '../../components/Header';
 
 
 import {Container, AreaInput, Input, Lista} from './styles'
@@ -46,6 +47,9 @@ function Search(){
   
   return(
       <Container>
+        <Header>
+          
+        </Header>
         <AreaInput>
           <Feather
           name="search"
@@ -65,6 +69,7 @@ function Search(){
       />
      
       </Container>
+      
  )
 }
 
