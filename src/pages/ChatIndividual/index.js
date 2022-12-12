@@ -2,7 +2,7 @@
 import React,{useLayoutEffect, useState} from 'react';
 import {View, Text} from 'react-native';
 import {useRoute, useNavigation} from '@react-navigation/native'
-import {Input} from './styles'
+import {Input, Text1, Text2} from './styles'
 
 function ChatIndividual(){ 
  
@@ -19,6 +19,8 @@ function ChatIndividual(){
   
   return(
       <View>
+        <Text2>Bom dia</Text2>
+        <Text1>Olá</Text1>
         <Input/>
       </View>
  )

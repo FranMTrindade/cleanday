@@ -134,6 +134,13 @@ function Login(){
         onChangeText={ (text) => setSenha(text) }
         />
 
+       <Input
+        placeholder="Confirme sua senha"
+        value={senha}
+        secureTextEntry={true}
+        onChangeText={ (text) => setSenha(text) }
+        />
+
         <Button onPress={handleCadastrar}>
          {loadingAuth ?(
         <ActivityIndicator size={20} color="#FFF"/>

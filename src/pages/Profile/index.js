@@ -168,7 +168,7 @@ const getFileLocalPath = (response) => {
                 size={22}
                 color="#242F64"
               />
-                <ButtonText color="#000"> Voltar </ButtonText>
+                <ButtonText color="#000">  </ButtonText>
             </ButtonVoltar>
           
           <Input 
@@ -178,11 +178,30 @@ const getFileLocalPath = (response) => {
           />
 
           <Input
+            placeholder= {user?.sobrename}
+            value={area1}
+            onChange={(text) => setArea1(text)}
+          />
+
+          <Input
             placeholder= {user?.prof}
             value={area1}
             onChange={(text) => setArea1(text)}
           />
 
+          <Input
+            placeholder= "Senha Antiga"
+          />
+
+          <Input
+            placeholder="Nova Senha"
+          />
+
+       
+       
+       
+       
+       
         <Button bg=" #242F64" onPress={AtualizaPerfil}>
           <ButtonText color="#A0A0A0"> Salvar </ButtonText>
         </Button>

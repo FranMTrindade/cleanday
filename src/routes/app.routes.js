@@ -13,7 +13,6 @@ import Profile from '../pages/Profile';
 import Chat from '../pages/PagChats';
 import NewPost from '../pages/NewPost';
 import PostUser from '../pages/PostUser';
-import PagChats from '../pages/PagChats';
 import ChatIndividual from '../pages/ChatIndividual'
 
 const Tab = createBottomTabNavigator();
@@ -62,8 +61,24 @@ function StackRoutes(){
             backgroundColor: '#242F64' 
                 }      
             }}  
-           /> 
+            />
             
+            <Stack.Screen 
+            name="Ana" 
+            component={ChatIndividual}
+            options={{
+            headerTintColor: '#FFF',
+            headerStyle:{
+            backgroundColor: '#242F64' 
+                }      
+            }} 
+          
+            />
+            
+       
+          
+          
+
             
             
         

@@ -20,6 +20,7 @@ export const Button = styled.TouchableOpacity`
     border-radius: 3px;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 
 `;
 
